@@ -1,0 +1,523 @@
+@media (max-width:800px) {
+    .full {
+        width: 100%;
+    }
+
+    header {
+        width: 768px;
+
+
+    }
+
+    .logo {
+        position: relative;
+        margin-left: -126px;
+        margin-top: -15px;
+    }
+
+    .button {
+        position: relative;
+        margin-right: -125px;
+        margin-top: -15px;
+    }
+
+
+
+
+
+
+
+    .item1 {
+        width: 377px;
+        position: relative;
+        left: -125px
+    }
+
+    .grid-intro {
+        margin-top: -48px;
+
+    }
+
+    .item2 img {
+        height: 425px;
+        margin-left: -287px;
+
+
+    }
+
+    .item1 p {
+
+        font-size: 16px;
+        line-height: 26px;
+        width: 339px;
+        height: 78px;
+
+    }
+
+    .item1 h1 {
+        width: 339px;
+        height: 96px;
+        top: -10px;
+        font-weight: 900;
+        font-size: 48px;
+        line-height: 48px;
+
+    }
+
+
+
+
+
+
+    .square-1,
+    .square-2 {
+        display: none;
+    }
+
+    .grid-intro-2 {
+        grid-template-columns: auto auto auto;
+        margin-top: -93px;
+        position: relative;
+        margin-left: -125px;
+    }
+
+    .item3 img {
+        width: 215px;
+        height: 320px;
+    }
+
+    .item3 {
+        height: 320px;
+    }
+
+
+
+
+    .item4 {
+        grid-column: 2 / 4;
+        width: 445px;
+        height: 320px;
+    }
+
+    .item4 img {
+        width: 445px;
+        height: 320px;
+
+
+    }
+
+    .item5 {
+        margin-top: -70px;
+        grid-row: 2 / 3;
+        grid-column: 1 / 4;
+        margin-left: -95px;
+        display: grid;
+        grid-template-columns: auto auto auto;
+    }
+
+
+
+    .item5-p {
+        grid-template-columns: 2/4;
+        width: 398px;
+        height: 78px;
+        margin-top: -28px;
+    }
+
+    .grid-intro-3 {
+
+
+        margin-top: 400px;
+
+
+        margin-left: -125px;
+    }
+
+    .item7 {
+        position: relative;
+        left: -38px;
+
+
+    }
+
+    .item6 h2,
+    .item7 h2,
+    .item8 h2,
+    .item9 h2 {
+        top: -9px;
+        position: relative;
+    }
+
+    .item8 {
+        position: relative;
+        margin-left: -773px;
+        margin-top: 358px
+    }
+
+    .item9 {
+        position: relative;
+        left: -530px;
+        margin-top: 358px;
+    }
+
+
+
+
+    .item6 p,
+    .item7 p,
+    .item8 p,
+    .item9 p {
+        position: relative;
+        top: -2px;
+        width: 281px;
+        height: 104px;
+
+    }
+
+
+    .footer-p {
+        margin-right: 737px
+    }
+
+
+
+
+}
+
+/**** mobile ****/
+
+
+@media(max-width:400px) {
+    .full {
+        width: 100%;
+    }
+
+    .header {
+        width: 375px
+    }
+
+    .logo {
+        position: relative;
+        margin-left: -140px;
+        margin-top: -37px;
+
+
+    }
+
+    header .button {
+        position: relative;
+        width: 150px;
+        height: 48px;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 26px;
+        padding: 11px 13px;
+        margin-right: 256px;
+        top: 38px;
+    }
+
+
+
+    .grid-intro {
+        display: grid;
+        grid-template-columns: auto;
+
+    }
+
+    .item2 {
+        grid-column: 1/2;
+        grid-row: 2/3;
+    }
+
+    .item1 {
+        grid-column: 1/2;
+        grid-row: 1/2;
+    }
+
+
+    .item1 h1 {
+        width: 327px;
+        height: 96px;
+        font-weight: 900;
+        font-size: 48px;
+        line-height: 48px;
+        top: -85px;
+        position: relative;
+        left: -15px;
+    }
+
+    .item1 p {
+        left: -15px;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 26px;
+        top: -76px;
+    }
+
+    .item1-buttons {
+        position: relative;
+        top: -81px;
+        left: -15px;
+    }
+
+    .item1-buttons .item1-button1 {
+        width: 150px;
+        height: 48px;
+
+    }
+
+    .item1-buttons .item1-button2 {
+        width: 150px;
+        height: 48px;
+
+    }
+
+    .item2 .kb {
+        width: 400px;
+        height: 330px;
+        position: relative;
+        left: 148px;
+        top: -172px;
+    }
+
+    .grid-intro-2 {
+        position: relative;
+        transform: translateY(230px);
+        display: grid;
+        grid-template-columns: auto auto auto;
+        gap: 25px;
+    }
+
+    .grid-intro-2 .item3-img {
+        width: 170px;
+        height: 192px;
+        position: relative;
+
+
+    }
+
+    .grid-intro-2 .item3 {
+        width: 170px;
+        height: 192px;
+        position: relative;
+        left: -101px;
+
+    }
+
+    .grid-intro-2 .item4-img {
+        width: 221px;
+        height: 192px;
+        left: -106px;
+        position: relative;
+
+    }
+
+    .grid-intro-2 .item5 {
+        display: block;
+        text-align: center;
+        top: -124px;
+        position: relative;
+    }
+
+    .grid-intro-2 .item5-h2 {
+        width: 255px;
+        height: 108px;
+        text-align: center;
+        font-weight: 900;
+        font-size: 32px;
+        line-height: 36px;
+        left: 20px;
+        position: relative;
+
+
+    }
+
+    .grid-intro-2 .item5-p {
+        width: 327px;
+        height: 104px;
+        text-align: center;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 26px;
+        top: 25px;
+        position: relative;
+        left: -16px;
+
+
+    }
+
+    .grid-intro-3 {
+        transform: translateY(215px);
+        display: grid;
+        grid-template-columns: auto;
+        position: relative;
+    }
+
+    .grid-intro-3 .item6 .item6-logo {
+        left: 115px;
+        position: relative;
+
+    }
+
+    .grid-intro-3 .item7 .item7-logo {
+        top: 35px;
+        left: 155px;
+        position: relative;
+
+    }
+
+    .grid-intro-3 .item6 {
+        grid-column: 1/2;
+        grid-row: 1/2;
+        position: relative;
+        text-align: center;
+    }
+
+    .grid-intro-3 .item6 h2 {
+        top: 1px;
+        width: 327px;
+        height: 56px;
+        left: -15px;
+    }
+
+    .grid-intro-3 .item6 p {
+        top: 7px;
+        width: 327px;
+        height: 104px;
+        left: -16px;
+
+
+    }
+
+    .grid-intro-3 .item7 h2 {
+        top: 45px;
+        width: 327px;
+        height: 56px;
+        left: 21px;
+    }
+
+    .grid-intro-3 .item7 p {
+        top: 51px;
+        width: 327px;
+        height: 104px;
+        left: 22px;
+
+
+
+    }
+
+    .grid-intro-3 .item7 {
+        top: 71px;
+        grid-column: 1/2;
+        grid-row: 2/3;
+        position: relative;
+        text-align: center;
+    }
+
+    .grid-intro-3 .item8 {
+        top: -137px;
+        transform: translateX(800px);
+        grid-column: 1/2;
+        grid-row: 3/4;
+        position: relative;
+        text-align: center;
+
+    }
+
+    .grid-intro-3 .item8 .item8-logo {
+        left: 88px;
+        position: relative;
+    }
+
+    .grid-intro-3 .item8 h2 {
+        top: 1px;
+        width: 200px;
+        height: 56px;
+        font-weight: 900;
+        font-size: 24px;
+        line-height: 28px;
+        left: 20px;
+
+    }
+
+    .grid-intro-3 .item8 p {
+        top: 9px;
+        width: 327px;
+        height: 104px;
+        left: -44px;
+
+    }
+
+
+
+
+
+    .grid-intro-3 .item9 {
+        top: -388px;
+        transform: translateX(550px);
+        grid-column: 1/2;
+        grid-row: 4/5;
+        position: relative;
+        text-align: center;
+    }
+
+    .grid-intro-3 .item9 .item9-logo {
+        left: 95px;
+        position: relative;
+    }
+
+    .grid-intro-3 .item9 h2 {
+        top: 1px;
+        width: 327px;
+        height: 56px;
+        font-weight: 900;
+        font-size: 24px;
+        line-height: 28px;
+        text-align: center;
+        left: -35px;
+
+    }
+
+    .grid-intro-3 .item9 p {
+        top: 8px;
+        width: 327px;
+        height: 104px;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 26px;
+        text-align: center;
+        left: -33px;
+    }
+    .footer-p{
+        transform: translateX(-165px);
+        top: -200px;
+        position: relative;
+
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
