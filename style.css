@@ -10,6 +10,10 @@
     font-family: 'Barlow', sans-serif;
 }
 
+body{
+overflow:hidden;
+}
+
 .full {
     margin: 0 auto;
     width: 1440px;
